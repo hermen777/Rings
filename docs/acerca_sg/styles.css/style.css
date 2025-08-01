@@ -45,13 +45,13 @@ body {
     grid-column-start: 2;
     grid-column-end: 3;
     font-size: 20px;
-    background-color: #3a3f51;
 }
 
 #acerca {
     grid-column-start: 5;
     grid-column-end: 6;
     font-size: 20px;
+    background-color: #3a3f51;
 }
 
 
@@ -85,7 +85,7 @@ a {
 }
 
 /* ==== Imagen principal ==== */
-#img_bienvenida{
+#acerca_img{
     margin-top: 80px;
     width: 100%;
     height: auto;

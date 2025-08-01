@@ -47,6 +47,12 @@ body {
     font-size: 20px;
 }
 
+#acerca {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    font-size: 20px;
+}
+
 #desarrollos {
     grid-column-start: 6;
     grid-column-end: 7;
