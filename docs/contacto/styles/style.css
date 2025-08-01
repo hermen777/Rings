@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: 	#1e1e1e;
+}
+
+/* ==== Barra principal ==== */
+.contenedor {
+    height: 80px;
+    background-color: #202735;
+    color: #f1f1f1;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    font-weight: bold;
+}
+.contenedor div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}  
+
+#home {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 20px;
+}
+
+#desarrollos {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    font-size: 20px;
+}
+
+#ii {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    font-size: 20px;
+}
+
+#contacto {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    font-size: 20px;
+    background-color: #3a3f51;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ==== Pestana activa ==== */
+
+
+/* ==== Otras pestanas ==== */
+.contenedor div:hover {
+    background-color: #3a3f51; /* color al pasar el mouse */
+    cursor: pointer;
+}
+
+
+/* ==== Descripción ==== */
+#title {
+    margin: 40px auto 10px auto;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 2px solid #3a3f51;
+    width: fit-content;
+    padding-bottom: 8px;
+}
+
+#mensaje_1 {
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 600;
+}
+#mensaje_2, #correo {
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: 18px;
+    color: #cfcfcf;
+    line-height: 1.6;
+}
+
+#mensaje_1, #mensaje_2, #correo {
+    margin-top: 25px;
+    max-width: 700px;
+}
